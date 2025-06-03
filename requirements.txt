@@ -1,0 +1,43 @@
+# 核心框架
+fastapi
+uvicorn[standard]
+pydantic
+
+# 文档处理
+pymupdf
+python-docx
+pdfminer.six
+
+# 机器学习与AI
+torch
+transformers
+sentence-transformers
+faiss-cpu  # 或 faiss-gpu==1.8.0 如果使用GPU
+scikit-learn
+numpy
+nltk
+accelerate  # 用于模型分布式加载
+
+# 文本处理与NLP
+langchain-text-splitters
+tiktoken
+tokenizers
+
+# 数据库与缓存
+redis  # 用于缓存和消息队列
+
+# 系统工具
+watchdog  # 文档自动更新
+python-multipart
+python-dotenv
+loguru
+tqdm
+
+# 监控与部署
+prometheus-client
+gunicorn
+celery  # 后台任务处理
+
+# 可选：GPU支持相关
+# cuda-python==12.4.0  # 如果使用NVIDIA GPU
+# cupy-cuda12x==14.0.0  # 如果使用CUDA加速
